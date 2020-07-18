@@ -13,7 +13,7 @@ export default class App extends Component {
   render() {
     return ( 
       <NavigationContainer>
-        <Stack.Navigator initialRouteName='Main'>
+        <Stack.Navigator initialRouteName='Main' headerMode='none'>
           <Stack.Screen name="Main" component={Main} />
           <Stack.Screen name="Authentication" component={Authentication} />
           <Stack.Screen name="ChangeInfo" component={ChangeInfo} />
